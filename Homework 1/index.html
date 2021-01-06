@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RG Homework 1</title>
+</head>
+<body>
+    <h1>Input area</h1>
+    <p>Input must be in the following format:<i><b>"v x y z"</b></i>!</p><p>Example: v 1 2 3</p>
+    <textarea id = "input" rows = "7" cols = "60"></textarea>
+    <br />
+    <style>
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 365px;
+            cursor: pointer;
+        }
+        .button1 {background-color: #008CBA;}
+    </style>
+    <button class="button button1" onclick="TransformPoints.transform(PointManager.read())">Transform</button>
+    <h1>Output area</h1>
+    <textarea readonly="readonly" id = "output" rows = "7" cols = "60"></textarea>
+    <script src="Vector4f.js"></script>
+    <script src="Matrix4f.js"></script>
+    <script src="PointManager.js"></script>
+    <script src="Transformation.js"></script>
+    <script src="TransformPoints.js"></script>
+</body>
+</html>

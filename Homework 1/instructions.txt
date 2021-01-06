@@ -1,0 +1,8 @@
+Upon opening the index.html file, you need to insert a vector in the "Input area" in the suggested format. You can insert as many vectors you like (every vector in a new line). After that, you click the blue button "Tranform" and it shows you the transformed vectors in the same order as inserted in the "Output area".
+The transformation goes as follows:
+1. Translation along the x-axis by 1.25
+2. Rotation along the z-axis by an angle of pi/3
+3. Translation along the z-axis by 4.15
+4. Translation along the y-axis by 3.14
+5. Scalation along the x and y axes by 1.12
+6. Rotation along the y-axis by an angle of 5*pi/8
