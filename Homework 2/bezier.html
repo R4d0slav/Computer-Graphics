@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+        body {
+            margin: 0px;
+        }
+        #myDiv {
+            margin: 0px;
+            align-items: baseline;
+        }
+        #myButton {
+            width: 45px;
+            height: 25px;
+            font-size: 12px;
+            text-align: left;
+            font-style: italic;
+            position: relative;
+        }
+        #canvas {
+            margin: 0px;
+            position:absolute;
+            height: 100%;
+            width: 100%;
+        }
+        #favcolor {
+            position: relative;
+        }
+
+        #setColor {
+            position: relative;
+            height: 25px;
+            width: 45px;
+            text-align: center;
+            font-size: 10px;
+        }
+        #add {
+            position: relative;
+            top: 5px;
+        }
+        #remove {
+            position: relative;
+            top: 10px;
+        }
+
+        #curveColor {
+            position: relative;
+        }
+
+    </style>
+    <canvas id="canvas"></canvas>
+    <div id="myDiv">
+        <input type="color" id="curveColor" name="Color" value="#000000">
+        <input type="color" id="favcolor" name="Color" value="#000000">
+        <button id="setColor">Set Color</button>
+        <button id="myButton">Delete</button>
+        <br />
+        <button id="add" onclick="d.new();">New Curve</button>
+        <br />
+        <button id="remove" onclick="d.delete();">Delete Curve</button>
+    </div>
+    <script src ="bezier.js"></script>
+</body>
+</html>
