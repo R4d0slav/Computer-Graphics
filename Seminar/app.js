@@ -134,7 +134,7 @@ class App extends Application {
 
 
         load.style.display = 'none';
-        playAudio();
+        //playAudio();
     }
 
 
